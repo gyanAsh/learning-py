@@ -11,7 +11,8 @@ print(text_length)
 print(abs(-210))  #returns +ve value of the input
 
 '''
-This is a multi line comment
+This is a multi line String
+Whaatt !!!
 '''
 
 a=2;b=4 #two logical lines in one physical line
