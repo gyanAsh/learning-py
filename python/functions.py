@@ -51,3 +51,33 @@ def keyPrint(**args): #takes and work with keyvalue pair
     print(args)
 
 keyPrint(aarg1="super",key=2,key3='value pair')
+
+print("")
+## scope in python
+
+a=10
+def fun():
+    print(a)
+def funA():
+    a=5
+    print(a)
+fun()
+funA()
+
+print("")
+#lamda is one line function
+a = lambda x:x+1
+print( a(10) )
+
+sumcal = lambda a,b:a+b
+print(sumcal(5,2))
+
+print("")
+#helps to ducment things well
+def define(a:int=20)->int:  #expecting a integer value & also set default values -> tells about the type of return
+    '''Adds 5 to the given number'''
+    a+=5 
+    print(a)
+    return a
+define(40)    
+print(define.__doc__)
