@@ -65,3 +65,5 @@ check =5
 color = 'blue'if check == 15 else 'red'
 print(f"color: {color}")
 print(f"color: {'pink' if check==5 else 'black'}")
+liste =1
+print(liste == True)
